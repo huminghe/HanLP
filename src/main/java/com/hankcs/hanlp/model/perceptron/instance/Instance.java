@@ -53,7 +53,7 @@ public class Instance
     protected static void addFeature(CharSequence rawFeature, List<Integer> featureVector, FeatureMap featureMap)
     {
         int id = featureMap.idOf(rawFeature.toString());
-        if (id != -1)
+        if (id != -1 && id < featureMap.size())
         {
             featureVector.add(id);
         }
