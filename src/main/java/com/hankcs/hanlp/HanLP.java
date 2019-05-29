@@ -221,7 +221,7 @@ public class HanLP
             Properties p = new Properties();
             try
             {
-                ClassLoader loader = Thread.currentThread().getContextClassLoader();
+                ClassLoader loader = HanLP.class.getClassLoader();
                 if (loader == null)
                 {  // IKVM (v.0.44.0.5) doesn't set context classloader
                     loader = HanLP.Config.class.getClassLoader();
