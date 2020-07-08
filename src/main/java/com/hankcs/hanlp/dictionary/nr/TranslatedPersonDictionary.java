@@ -78,8 +78,9 @@ public class TranslatedPersonDictionary
             }
             logger.info("音译人名词典" + path + "开始构建双数组……");
             trie.build(map);
-            logger.info("音译人名词典" + path + "开始编译DAT文件……");
-            logger.info("音译人名词典" + path + "编译结果：" + saveDat());
+            // 不保存
+            // logger.info("音译人名词典" + path + "开始编译DAT文件……");
+            // logger.info("音译人名词典" + path + "编译结果：" + saveDat());
         }
         catch (Exception e)
         {
