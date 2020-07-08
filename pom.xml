@@ -113,7 +113,7 @@
                             <publisher>
                                 <username>huminghe</username>
                                 <password>AP6KjNUkaMgwbfG34HrT8tDT6kd</password>
-                                <contextUrl>http://repo.in.zhihu.com/artifactory</contextUrl>
+                                <contextUrl>https://repo.in.zhihu.com/artifactory</contextUrl>
                                 <repoKey>libs-release-local</repoKey>
                                 <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
                             </publisher>
